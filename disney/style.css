@@ -1,0 +1,417 @@
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.site-container {
+    font-family: sans-serif;
+    background-color: #040714;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 13vh;
+    background-color:#040714;
+    align-items: center;
+    opacity: 0.9;
+    position:fixed ;
+    z-index: 3;
+}
+
+.logo {
+    width: 110px;
+    margin-right: auto ;
+    margin-left: 1rem;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.kayıt a, .oturum a {
+    border: 1px solid;
+    padding: 20px;
+    margin-right: 1rem;
+    border-radius: 8px;
+}
+.kayıt a{
+    border:none;
+   background-color: blue;
+    color: white;
+}
+.oturum a {
+border: 1px solid white;
+color: white;
+
+}
+.arkaplan{
+
+background: url(https://cnbl-cdn.bamgrid.com/assets/223a08de8c12db28ff3b73a2374debc8eb68a6fecdf1dcf2c8cad17b35723f36/original
+);
+min-height: 840px;
+width: 100%;
+background-size: cover;
+
+}
+
+.arkaplanic{
+display: flex;
+flex-direction: column;
+
+    
+}
+
+.yazı-tarafı{
+    margin-top: 400px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.arkaplanic p{
+
+    color: white;
+    text-align: center;
+    font-size: 44px;
+    margin: auto;
+    width: 60%;
+    margin-top: 15px;
+
+}
+
+.yazı-tarafı-2{
+    margin-top: 15px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.simdi-uye-ol button{
+
+
+    display: flex;
+    margin: auto;
+    align-items: center;
+    margin-top: 15px;
+    padding: 15px;
+    background-color:blue ;
+    border-radius: 6px;
+    width: 360px;
+    height: 70px;
+    font-size: 20px;
+    justify-content: center;
+    color: white;
+}
+.yazı-tarafı3 p{
+
+    margin-top: 15px;
+    color: rgb(218, 203, 203);
+    text-align: center;
+    font-size: 20px;
+    
+
+}
+.yazı-tarafı4 p{
+
+    margin-top: 15px;
+    color: rgb(218, 203, 203);
+    text-align: center;
+    font-size: 15px;
+
+}
+.arkaplan-2 img{
+
+width: 100%;
+position: relative;
+
+
+
+}
+.arkaplanic2{
+
+position: absolute;
+
+color: white;
+
+}
+.arka{
+
+position: relative;
+
+}
+.yazılar{
+
+position: absolute;
+top: 0;
+color: white;
+margin-left: 73px;
+    font-size: 1.2rem;
+    margin-top: 30vh;
+    width: 29%;
+}
+.yazılar h1{
+
+    margin-bottom: 1rem;
+}
+.buyuk-yazı{
+
+    margin-top: 70px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+   .buyuk-yazı p{
+    font-size: 20px;
+    color: grey;
+    text-align: center;
+    margin-top: 30px;
+  
+   }
+   .arkas img {
+
+    width: 100%;
+    height: auto;
+    display: block;
+
+
+   } 
+   
+   .sımge ul {
+
+    display: flex;
+    height: auto;
+    width: 100%;
+    list-style-type: none;
+    justify-content: center;
+    color: white;
+    text-align: center;
+
+
+   }
+   .foto1 img{
+
+    display: block;
+    width: 90%;
+    height: auto;
+    margin-left: 55px;
+   }
+   .foto2 img{
+    display: block;
+    width: 90%;
+    height: auto;
+    margin-right: 55px;
+
+   }
+   .foto3 img{
+    display: block;
+    width: 90%;
+    height: auto;
+    margin-right: 55px;
+
+   }
+   .baslık{
+
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin-top: 140px;
+   }
+   
+   .body3 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 2rem;
+  }
+  
+  .body3-flex-container {
+    width: 100%;
+    height: 100%;
+    padding: 5vw;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .body3-content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .body3-content-h1 {
+    font-size: 2.7rem;
+    font-weight: 700;
+    margin-block-end: 0.83em;
+  }
+  
+  .accordion-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .a-c {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding-block: 1.9em;
+    padding-inline: 1em;
+    background-color: #13151d;
+    margin-block-start: 1em;
+    border-radius: 3px;
+    align-items: center;
+  }
+  
+  .a-c-h1 {
+    color: #ffffffb5;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  
+  .a-c-plus {
+    margin-left: auto;
+    font-size: 22px;
+  }
+  .sosyal ul{
+       display: flex;
+    height: auto;
+    width: 100%;
+    list-style-type: none;
+    justify-content: center;
+    color: white;
+    text-align: center;
+
+  
+}
+.tv1 img{
+
+
+
+    display: block;
+    height: auto;
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 45px;
+   
+}
+
+.bilgisayar img{
+
+    display: block;
+    height: auto;
+    width: 90%;
+    margin-top: 35px;
+    margin-left: 50px;
+   
+
+}
+.tel img {
+
+    display: block;
+    height: auto;
+    width: 90%;
+    margin-top: 40px;
+    margin-left: 5px;
+
+}
+.konsol img{
+
+    display: block;
+    height: auto;
+    width: 81%;
+    margin-top: 55px;
+    margin-right: 11px; 
+}
+.footer-flex{
+
+
+    width: 100%;
+    height: 100%;
+    padding: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.footer{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+
+
+}
+ .footer-logo{
+
+    width: 70px;
+    height: auto;
+    display: flex;
+    margin-bottom: 1em;
+    align-items: center;
+
+ }
+ .langue{
+
+    width: 100%;
+    height: auto;
+    padding: 10px 12px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+   
+
+ }
+ .footer-container{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-block-end: 1em;
+    width: 100%;
+    list-style: none;
+
+ }
+ .footer-foto {
+
+    color: white;
+    font-size: 17px;
+    padding: 10px 12px;
+    list-style-type: none;
+    display: inline;
+  
+
+
+
+ }
+
+
+
+   
+  
+  
+    
+        
+
+
+
+   
+
+
+
